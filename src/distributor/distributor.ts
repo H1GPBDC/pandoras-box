@@ -178,7 +178,7 @@ class Distributor {
     printCostTable(costs: runtimeCosts) {
         Logger.info('\nCycle Cost Table:');
         const costTable = new Table({
-            head: ['Name', 'Cost [eth]'],
+            head: ['Name', 'Cost [uIDO]'],
         });
 
         costTable.push(
